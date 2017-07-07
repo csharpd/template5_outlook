@@ -5,46 +5,25 @@
         <title></title>
         <style type="text/css">
         body {margin: 0; padding: 0; min-width: 100%!important;}
-        .content {width: 100%; max-width: 600px;}
-        .full-width-image img {
-            width: 100%;
-            max-width: 600px;
-            height: auto;
-        }
 
         .preheader {display: none;}
 
-        @media only screen and (min-device-width: 601px) {
-        .content {width: 600px !important;}
-        .main-header{width:100% !important;}
-        }  
-
         @media only screen and (max-width: 480px){
-           
-            #registerimage {
-              width:50px !important;
-              display:block !important;
-              padding-right: 4px;
+            #registercta {
+              width:50% !important;
             }
-
-            #first-header {
-              text-align: left !important;
-            }
-
-             #mobwidth{
+            
+            #mobwidth{
               width: 88% !important;
             }
 
-             #competition {
-              max-width: 100px !important;
-              padding-right: 3px !important;
+            /* This resizes tables and images to be 100% wide with a proportionate width */
+            table[class=emailwrapto100pc], img[class=emailwrapto100pc] {
+                    width: 100% !important;
+                    height: auto !important;
             }
+        }  
 
-            #competition br{
-              display: none;
-            }
-           
-        }
         </style>
     </head>
     <body yahoo>
@@ -53,24 +32,25 @@
         <table width="100%" border="0" cellpadding="0" cellspacing="0">
             <tr>
                 <td>
+                  <center>
                     <!--[if (gte mso 9)|(IE)]>
                     <table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
                         <tr>
                             <td>
                                 <![endif]-->
-                                <table class="content" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;">
+                                <table width="600" align="center" cellpadding="0" cellspacing="0" border="0" style="border-collapse: collapse;" class="emailwrapto100pc" id="content">
                                     <tbody>
                                         <tr>
-                                          <td class="full-width-image" style="color: #fe5000; font-weight: bold; font-family: Helvetica, Arial, sans-serif; font-size: 12px; 
+                                          <td style="color: #fe5000; font-weight: bold; font-family: Helvetica, Arial, sans-serif; font-size: 12px; 
                 line-height: 14px; font-style: italic;">
                                             <div class="mktEditable" id="hero-image">
-                                              <a href="http://info.purestorage.com/2017-08-08--APJ-ANZ--PE--A--Purely-TechnicalPurely-Technical_Landing-Page--Registration.html" target="_blank" class="mktNoTrack">
-                                                <img src="http://d18d0sq6293ui9.cloudfront.net/purelytechnical.png" width="600" alt="PURELY TECHNICAL IS HERE" style="border-width: 0; height: auto; -ms-interpolation-mode: bicubic; display: block; width: 100%; max-width: 600px;" />
+                                              <a href="http://info.purestorage.com/2017-08-08--APJ-ANZ--PE--A--Purely-TechnicalPurely-Technical_Registration-Page.html" target="_blank" class="mktNoTrack">
+                                                <img src="http://d18d0sq6293ui9.cloudfront.net/purelytechnical.png" width="600" alt="PURELY TECHNICAL IS HERE" style="border-width: 0; height: auto; -ms-interpolation-mode: bicubic; display: block; width: 100%; max-width: 600px;" width="600" class="emailwrapto100pc"/>
                                               </a>
                                             </div>
                                           </td>
-                                         </tr>
-                                         <tr>
+                                        </tr>
+                                        <tr>
                                           <td bgcolor="#ffffff">
                                             <table width="70%" align="center" cellpadding="0" cellspacing="0" border="0" id="mobwidth">
                                                 <tbody>
@@ -80,7 +60,8 @@
                                                             <tr>
                                                                <td style="color: #fe5000; font-family:Helvetica,sans-serif;font-size: 12px;line-height:16px;padding-bottom:10px;padding-top:25px;">
                                                                 <span class="mktEditable" id="first-header">
-                                                                <i><b>FLASH MASTERS UNITE! GET READY TO ARM YOURSELF WITH THE POWER OF KNOWLEDGE AT THE ANNUAL PURELY TECHNICAL SUMMIT.</b></i></span>
+                                                                <i><b>FLASHMASTERS UNITE! GET READY TO ARM YOURSELF WITH THE POWER OF KNOWLEDGE AT THE ANNUAL PURELY TECHNICAL SUMMIT.</b></i>
+                                                                </span>
                                                                </td>
                                                             </tr>
                                                           </table>
@@ -91,7 +72,8 @@
                                                           <table width="90%" cellpadding="0" cellspacing="0" border="0">
                                                             <tr>
                                                                <td style="color: #595959; font-family:Helvetica,sans-serif;font-size: 12px;line-height: 16px;">
-                                                                <span class="mktEditable" id="second-header"><b> Become a data centre superhero with a series of workshops and talks. Here’s what you can expect:</b></span>
+                                                                <span class="mktEditable" id="second-header"><b> Become a data centre superhero with a series of workshops and talks. Here’s what you can expect:</b>
+                                                                </span>
                                                                </td>
                                                             </tr>
                                                           </table>
@@ -133,16 +115,20 @@
                                                         <table border="0" cellpadding="0" cellspacing="0" width="100%" style="color: #595959; font-family:HelveticaNeue-Light,sans-serif;font-size: 12.4px;line-height: 18px;">
                                                           <tr>
                                                             <td valign="top" style="padding-bottom:7px";>
-                                                              <span class="mktEditable" id="event-date-title" style="color: #fe5000;padding-bottom:14px;">Date:
+                                                              <span class="mktEditable" id="event-date-title" style="color: #fe5000;padding-bottom:14px;">  Date:
                                                               </span>
-                                                              <span class="mktEditable" id="event-date">8th -10th August</span>
+                                                              <span class="mktEditable" id="event-date">
+                                                                8th - 10th August
+                                                              </span>
                                                             </td>
                                                           </tr>
                                                           <tr>
                                                             <td valign="top" style="padding-bottom:7px">
-                                                              <span class="mktEditable" id="event-time-title" style="color: #fe5000;">Time: 
+                                                              <span class="mktEditable" id="event-time-title" style="color: #fe5000;">
+                                                                Time: 
                                                               </span>
-                                                              <span class="mktEditable" id="event-time" >Welcome drinks and canapes will be held at 7pm on 8th of August</span>
+                                                              <span class="mktEditable" id="event-time">Welcome drinks and canapes will be held at 7pm on 8th of August
+                                                              </span>
                                                             </td>
                                                           </tr>
                                                           <tr>
@@ -169,50 +155,43 @@
                                                       </tr>
                                                       <tr>
                                                         <td>
-                                                          <table align="left" border="0" cellpadding="0" cellspacing="0" width="30%" id="registercta">
-                                                             <tr>
-                                                                <td valign="center" width="100px">
-                                                                   <!--[if mso]>
-                                                                   <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://info.purestorage.com/2017-08-08--APJ-ANZ--PE--A--Purely-TechnicalPurely-Technical_Landing-Page--Registration.html" style="height:28px;v-text-anchor:middle;width:180;" stroke="f" fillcolor="#fe5000">
-                                                                      <w:anchorlock/>
-                                                                      <center style="color:#ffffff;font-family:sans-serif;font-size:12px;font-weight:bold;">
-                                                                         REGISTER
-                                                                      </center>
-                                                                   </v:roundrect>
-                                                                   <![endif]-->
-                                                                   <![if !mso]>
-                                                                   <table cellspacing="0" cellpadding="0" width="100%">
-                                                                      <tr>
-                                                                         <td align="center" width="100%" height="35" bgcolor="#fe5000" style="color: #fe5000; display: block;">
-                                                                            <a href="http://info.purestorage.com/2017-08-08--APJ-ANZ--PE--A--Purely-TechnicalPurely-Technical_Landing-Page--Registration.html" style="font-size:12px; font-weight: bold; font-family:sans-serif; text-decoration: none; line-height:35px; width:100%; display:inline-block">
-                                                                               <div class="mktEditable" id="register-button-text">
-                                                                                  <span style="color: #ffffff;" class="mktNoTrack">
-                                                                                  REGISTER
-                                                                                  </span>
-                                                                               </div>
-                                                                            </a>
-                                                                         </td>
-                                                                      </tr>
-                                                                   </table>
-                                                                   <![endif]>
-                                                                </td>
-                                                             </tr>
-                                                          </table>
+                                                          <div>
+                                                           <!--[if mso]>
+                                                           <v:rect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="http://info.purestorage.com/2017-08-08--APJ-ANZ--PE--A--Purely-TechnicalPurely-Technical_Registration-Page.html" style="height:40px;v-text-anchor:middle;width:150px;" stroke="f" fillcolor="#fe5000">
+                                                              <w:anchorlock/>
+                                                              <center>
+                                                                 <![endif]-->
+                                                                 <a href="http://info.purestorage.com/2017-08-08--APJ-ANZ--PE--A--Purely-TechnicalPurely-Technical_Registration-Page.html"
+                                                                    style="background-color:#fe5000;color:#ffffff;display:inline-block;font-family:sans-serif;font-size:13px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:150px;-webkit-text-size-adjust:none;">REGISTER</a>
+                                                                 <!--[if mso]>
+                                                              </center>
+                                                           </v:rect>
+                                                           <![endif]-->
+                                                        </div>
+                                                         
                                                         </td>
                                                       </tr>
                                                       <tr>
                                                         <td style="color: #595959; font-family:HelveticaNeue-Light,sans-serif;font-size: 8px;line-height: 11px;padding-top:14px;padding-bottom:14px;">
-                                                          <div>
+                                                          <div class="mktEditable" id="terms-and-conditions">
                                                             *All accomodation, meals and transport from the CBD to the venue and back will be complimentary of Pure. Excluding flights, hotel incidentals and transport from the airport to the CBD.
                                                           </div>
                                                         </td>
                                                       </tr>
-                                                       <tr>
-                                                        <td style="color: #595959; font-family:HelveticaNeue-Light,sans-serif; font-size: 12px; line-height: 14px;padding-top:14px;">
-                                                          <div>Exabyte Sponsors</div>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                        <tr>
+                                          <td bgcolor="#c5c6c7">
+                                            <table width="70%" align="center" cellpadding="0" cellspacing="0" border="0" id="mobwidth">
+                                                <tbody>
+                                                      <tr>
+                                                        <td style="color: #ffffff; font-family:HelveticaNeue-Light,sans-serif; font-size: 12px; line-height: 14px;padding-top:20px;">
+                                                          <div class="mktEditable" id="exabyte-sponsors">Exabyte Sponsors</div>
                                                         </td>
-                                                       </tr>
-                                                    <tr>
+                                                      </tr>
+                                                      <tr>
                                                       <td>
                                                         <table width="100%" cellpadding="0" cellspacing="0" border="0" style="padding:11.8px 0;">
                                                           <tr>
@@ -234,8 +213,8 @@
                                                        </td>
                                                      </tr>
                                                      <tr>
-                                                      <td style="color: #595959; font-family:HelveticaNeue-Light,sans-serif; font-size: 12px; line-height: 14px;">
-                                                        <div>Petabyte Sponsors</div>
+                                                      <td style="color: #ffffff; font-family:HelveticaNeue-Light,sans-serif; font-size: 12px; line-height: 14px;">
+                                                        <div class="mktEditable" id="petabyte-sponsors">Petabyte Sponsors</div>
                                                       </td>
                                                      </tr>
                                                      <tr>
@@ -316,13 +295,19 @@
                                                     </table>
                                                   </td>
                                                  </tr>
-                                            </tbody>
-                                        </table>
+
+                                                </tbody>
+                                              </table>
+                                          </td>
+                                        </tr>
+                                    </tbody>
+                                 </table>
                                 <!--[if (gte mso 9)|(IE)]>
                             </td>
                         </tr>
                     </table>
                     <![endif]-->
+                  </center>
                 </td>
             </tr>
         </table>
